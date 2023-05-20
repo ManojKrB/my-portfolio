@@ -5,8 +5,9 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Manoj Kumar - Portfolio</title>
+        <title>Manoj Kumar | Portfolio</title>
       </Head>
+
       <Navbar />
     </div>
   );
