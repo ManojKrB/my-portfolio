@@ -1,6 +1,6 @@
 import Image from "next/image";
-import delivery from "../public/assets/projects/deliveryApp.png";
-import event from "../public/assets/projects/eventApp.png";
+import delivery from "../public/assets/projects/DeliveryAppRER.png";
+import event from "../public/assets/projects/NDEApp.png";
 
 const Projects = () => {
   return (
@@ -10,18 +10,33 @@ const Projects = () => {
           Projects
         </p>
         <div className="flex  max-w-[900px] mx-auto justify-center items-center w-full border border-black-700">
-          <div className="relative flex flex-col max-w-[70%] m-auto items-center justify-center h-auto shadow-xl shadow-gray-400 rounded-xl p-4 group hove:bg-gradient-to-r from-[#5651e5] to-[#709dff]">
+          <div className="relative md:flex  max-w-[70%] m-auto items-center justify-center h-auto shadow-xl shadow-gray-400 rounded-xl p-4 group hove:bg-gradient-to-r from-[#5651e5] to-[#709dff]">
             <Image className="rounded-xl" src={event} alt="/" />
-            <p>Created a master app for events. </p>
+            <div className="pl-4">
+              <p>
+                Created a master app for events for both IOS and Android
+                platforms.
+              </p>
+              <p>Google & Facebook Signup/Signin.</p>
+              <p>Push Notifications</p>
+              <p>Profile sharing via QR Code</p>
+            </div>
           </div>
         </div>
         <div className="flex  max-w-[900px] mx-auto justify-center items-center w-full border border-black-700">
-          <div className="relative flex flex-col max-w-[70%] m-auto  items-center justify-center h-auto shadow-xl shadow-gray-400 rounded-xl p-4 group hove:bg-gradient-to-r from-[#5651e5] to-[#709dff]">
-            <Image className="rounded-xl" src={delivery} alt="/" />
-            <p>
-              Created an Android App for delivery partners to keep track of
-              their individual orders.
-            </p>
+          <div className="relative md:flex  max-w-[70%] m-auto items-center justify-center h-auto shadow-xl shadow-gray-400 rounded-xl p-4 group hove:bg-gradient-to-r from-[#5651e5] to-[#709dff]">
+            <Image
+              className="rounded-xl"
+              src={delivery}
+              alt="/"
+              style={{ height: 499, width: 230 }}
+            />
+            <div className="pl-4">
+              <p>
+                Android app for delivery agents to keep track of their daiy
+                orders.
+              </p>
+            </div>
           </div>
         </div>
       </div>
