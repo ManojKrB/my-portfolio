@@ -12,7 +12,7 @@ const Projects = () => {
         <div className="flex  max-w-[900px] mx-auto justify-center items-center w-full border border-black-700">
           <div className="relative md:flex  max-w-[70%] m-auto items-center justify-center h-auto shadow-xl shadow-gray-400 rounded-xl p-4 group hove:bg-gradient-to-r from-[#5651e5] to-[#709dff]">
             <Image className="rounded-xl" src={event} alt="/" />
-            <div className="pl-4">
+            <div className="pl-4 pt-5">
               <p>
                 Created a master app for events for both IOS and Android
                 platforms.
@@ -31,9 +31,9 @@ const Projects = () => {
               alt="/"
               style={{ height: 499, width: 230 }}
             />
-            <div className="pl-4">
+            <div className="pl-4 pt-5">
               <p>
-                Android app for delivery agents to keep track of their daiy
+                Android app for delivery agents to keep track of their daily
                 orders.
               </p>
             </div>

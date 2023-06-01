@@ -19,6 +19,9 @@ const Contact = () => {
             <p className="py-4 max-w-[70%] m-auto">
               I am avaiable for full-time position. Contact me
             </p>
+            <p className="py-3 max-w-[70%] m-auto text-blue-700">
+              Email: manoj.bayyarapu@gmail.com
+            </p>
             <div>
               {/* <p className="uppercase pt-8 font-bold max-w-[70%] m-auto">
                 Connect with me
