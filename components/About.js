@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const About = () => {
   return (
     <div id="about" className="w-full px-2 items-center py-16 justify-center">
@@ -7,6 +9,14 @@ const About = () => {
             About
           </p>
           <p className="py-2 text-gray-600">IIT(BHU) graduate.</p>
+          <p className="py-2 text-gray-600">
+            As a Product Engineer at Codingmart Technologies, I developed a
+            cutting-edge AI content generation web app, fostering collaboration
+            among users. Architected a sophisticated user interface adaptable to
+            diverse user roles, ensuring a tailored and seamless experience.
+            Successfully implemented Google, Phone, and Email Authentication
+            using Firebase.<Link href={'https://drive.google.com/drive/folders/1n9fr5h75N-jqYT7qPxjqLlSTHOsBUB2K?usp=sharing'} style={{marginLeft: 10, color: 'purple', textDecoration: 'underline'}}>project images</Link>
+          </p>
           <p className="py-2 text-gray-600">
             As a Senior Software Engineer in Apollo 24/7 (QuilinX), l developed
             Glucose Insights part under Health Records section in Apollo 24/7

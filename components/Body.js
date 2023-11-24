@@ -14,7 +14,7 @@ const Body = () => {
           </h1>
           <div className="max-w-[70%] m-auto">
             <p className="py-4 text-gray-600 ">
-              Ex-Apollo 24/7 and Ex-SaaScraft. 1.5 years of Experience In
+              Product Engineer at Codingmart. Ex-Apollo 24/7 and Ex-SaaScraft. 2 years of Experience In
               Frontend Development.
             </p>
           </div>
@@ -38,7 +38,7 @@ const Body = () => {
             </Link> */}
             <Link
               target="_blank"
-              href="https://drive.google.com/file/d/1LVtGFyLtLPwYuYXjJ4kMGEeHjZI6-gH4/view?usp=sharing"
+              href="https://drive.google.com/file/d/1F9E3GTqT6_FLcJNZ3lQ8YmGk5PPIl1tr/view?usp=sharing"
               className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer"
             >
               <User />

@@ -46,7 +46,7 @@ const Contact = () => {
             </Link> */}
                 <Link
                   target="_blank"
-                  href="https://drive.google.com/file/d/1LVtGFyLtLPwYuYXjJ4kMGEeHjZI6-gH4/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1F9E3GTqT6_FLcJNZ3lQ8YmGk5PPIl1tr/view?usp=sharing"
                   className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer"
                 >
                   <User />
